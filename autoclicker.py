@@ -4,7 +4,7 @@ import keyboard
 
 def click_at_position(x, y, interval):
     while True:
-        if keyboard.is_pressed('q'):  # 'q' 키를 누르면 중지
+        if keyboard.is_pressed('q'):  # 'q' 매크로 정지
             print("클릭 매크로 중지됨!")
             break
         pyautogui.click(x=x, y=y)
